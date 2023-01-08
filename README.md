@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Forex_Trading_AWorld
 ReactJS WebApp
 >>>>>>> b038dbe0d30ab68728c67e2460673d85e8237bee
+=======
+# Forex-Traders-AWorld
+Trade Forex
+>>>>>>> 33ff93656cd28aab576a407a2dc3cefe4dbb420e
