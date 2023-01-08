@@ -1,0 +1,152 @@
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+
+}
+/* heading */
+.portfolio span:nth-of-type(1) {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.portfolio span:nth-of-type(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* slider */
+.portfolio .swiper{
+    overflow: visible!important;
+}
+
+.portfolio-slider {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.portfolio-slider .swiper-slide {
+  width: 20rem;
+}
+.portfolio img {
+  width: 19rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 19px;
+}
+
+.requisites {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  color: rgb(216, 188, 146);
+  padding: 10px;
+  position: relative;
+  border-radius: 15px;
+  
+  
+}
+
+.column1 {
+  padding: 30px;
+  width: 24%;
+  height: 400px;
+  
+  background-color: transparent;
+  
+  border: solid;
+  border-color: #FFD700;
+ 
+  border-radius: 14px;
+}
+
+.column1 h3 {
+  margin-bottom: 10px;
+}
+
+.column1 ul {
+list-style: none;
+margin: 0;
+ color: rgb(233, 229, 241);
+ text-decoration: none;
+ height: 100%;
+ 
+ align-items: center;
+ padding: .25rem;
+ font-size: 50px;
+ color: tomato;
+ 
+}
+
+
+.column1 ul li::before {
+  content: "✔";
+  margin-right: 10px;
+  color: blue;
+}
+
+.n-button1 {
+  position: absolute;
+  bottom: 0;
+  left: 16%;
+  transform: translateX(-50%);
+}
+
+.n-button2 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.n-button3 {
+  position: absolute;
+  bottom: 0;
+  left: 84%;
+  transform: translateX(-50%);
+}
+
+
+
+
+.shadow {
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 600px) {
+  .requisites {
+    flex-direction: column;
+   
+
+  }
+  .column1 {
+    width: 100%;
+    padding: 0rem;
+    
+    
+  }
+  .n-button1 {
+    position: relative;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .n-button2 {
+    position: relative;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .n-button3 {
+    position: relative;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.column1 ul{
+  font-size: 30px;
+}
